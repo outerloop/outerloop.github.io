@@ -4,7 +4,7 @@
   <title><![CDATA[Ed K]]></title>
   <link href="http://outerloop.github.io/atom.xml" rel="self"/>
   <link href="http://outerloop.github.io/"/>
-  <updated>2014-02-23T22:56:06-05:00</updated>
+  <updated>2014-02-23T23:57:35-05:00</updated>
   <id>http://outerloop.github.io/</id>
   <author>
     <name><![CDATA[outerloop]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[This Is Not the Beginning of a Blog]]></title>
+    <link href="http://outerloop.github.io/blog/2014/02/23/this-is-not-the-beginning-of-a-blog/"/>
+    <updated>2014-02-23T22:58:41-05:00</updated>
+    <id>http://outerloop.github.io/blog/2014/02/23/this-is-not-the-beginning-of-a-blog</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been writing and compiling notes to myself for a long time hence this is not the beginning of a blog per se. As much as I enjoy jotting thoughts in my Moleskine/Evernote/Gmail, knowing that the audience will likely be only myself doesn&rsquo;t always lend itself to clarity and structure in writing. This is one reason why I&rsquo;ve decided to share my thoughts and ideas with the universe &mdash; writing with a potential audience greater than one reader will encourage logical and persuasive writing. The other reason is to be part of the discussions, whatever they may be.</p>
+]]></content>
+  </entry>
   
 </feed>
