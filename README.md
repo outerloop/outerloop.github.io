@@ -1,4 +1,0 @@
-outerloop.github.io
-===================
-
-Blog
