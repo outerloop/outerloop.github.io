@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Observing | Ed K]]></title>
+  <link href="http://outerloop.github.io/blog/categories/observing/atom.xml" rel="self"/>
+  <link href="http://outerloop.github.io/"/>
+  <updated>2014-04-02T21:45:10-04:00</updated>
+  <id>http://outerloop.github.io/</id>
+  <author>
+    <name><![CDATA[outerloop]]></name>
+    <email><![CDATA[outerloop@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Benford's Law in the Wild]]></title>
+    <link href="http://outerloop.github.io/blog/2014/03/20/benfords-law-in-the-wild/"/>
+    <updated>2014-03-20T22:18:12-04:00</updated>
+    <id>http://outerloop.github.io/blog/2014/03/20/benfords-law-in-the-wild</id>
+    <content type="html"><![CDATA[<p>A colleague at work mentioned something that turned out to be really cool &mdash; <a href="http://en.wikipedia.org/wiki/Benford's_law">Benford&rsquo;s Law</a>. Also known as the First-Digit Law, it refers to the frequency distribution of digits in many real-life sources of data.</p>
+
+<p>According to ths law, this is what the distribution of first digits looks like:
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rozklad_benforda.svg/200px-Rozklad_benforda.svg.png" alt="Benford Distribution" /></p>
+
+<p>There are some caveats about the data that this distribution can be applied to. Namely, the data must be distributed across multiple orders of magnitude. That is, if the numbers only fall between 100 and 999, the law will not apply.</p>
+
+<p>I had to see whether this law held true with my own eyes. Fortunately, in my day job, I work with <em>lots</em> of real-life data that <em>is</em> applicable to Benford&rsquo;s law &mdash; trade data from trading desks at a bank.</p>
+
+<p>Yup. It works!</p>
+
+<p>One application of this law is (simplistic) fraud detection. As Phil Galfond once said (I think&hellip; can&rsquo;t find the source to confirm), humans are bad at being random. Ask someone to pick a series of random numbers and you typically end up with a uniform distribution because &ldquo;being random&rdquo; means &ldquo;try not to repeat digits&rdquo;.</p>
+]]></content>
+  </entry>
+  
+</feed>
