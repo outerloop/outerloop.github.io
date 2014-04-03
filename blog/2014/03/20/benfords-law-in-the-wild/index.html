@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>This Is Not the Beginning of a Blog - Ed K</title>
+  <title>Benford's Law in the Wild - Ed K</title>
   <meta name="author" content="outerloop">
 
   
-  <meta name="description" content="I&rsquo;ve been writing and compiling notes to myself for a long time hence this is not the beginning of a blog per se. As much as I enjoy jotting &hellip;">
+  <meta name="description" content="A colleague at work mentioned something that turned out to be really cool &mdash; Benford&rsquo;s Law. Also known as the First-Digit Law, it refers &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://outerloop.github.io/blog/2014/02/23/this-is-not-the-beginning-of-a-blog">
+  <link rel="canonical" href="http://outerloop.github.io/blog/2014/03/20/benfords-law-in-the-wild">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Ed K" type="application/atom+xml">
@@ -68,7 +68,7 @@
   
   <header>
     
-      <h1 class="entry-title">This Is Not the Beginning of a Blog</h1>
+      <h1 class="entry-title">Benford's Law in the Wild</h1>
     
     
       <p class="meta">
@@ -84,14 +84,25 @@
   
 
 
-<time datetime="2014-02-23T22:58:41-05:00" pubdate data-updated="true">Feb 23<span>rd</span>, 2014</time>
+<time datetime="2014-03-20T22:18:12-04:00" pubdate data-updated="true">Mar 20<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I&rsquo;ve been writing and compiling notes to myself for a long time hence this is not the beginning of a blog per se. As much as I enjoy jotting thoughts in my Moleskine/Evernote/Gmail, knowing that the audience will likely be only myself doesn&rsquo;t always lend itself to clarity and structure in writing. This is one reason why I&rsquo;ve decided to share my thoughts and ideas with the universe &mdash; writing with a potential audience greater than one reader will encourage logical and persuasive writing. The other reason is to be part of the discussions, whatever they may be.</p>
+<div class="entry-content"><p>A colleague at work mentioned something that turned out to be really cool &mdash; <a href="http://en.wikipedia.org/wiki/Benford's_law">Benford&rsquo;s Law</a>. Also known as the First-Digit Law, it refers to the frequency distribution of digits in many real-life sources of data.</p>
+
+<p>According to ths law, this is what the distribution of first digits looks like:
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rozklad_benforda.svg/200px-Rozklad_benforda.svg.png" alt="Benford Distribution" /></p>
+
+<p>There are some caveats about the data that this distribution can be applied to. Namely, the data must be distributed across multiple orders of magnitude. That is, if the numbers only fall between 100 and 999, the law will not apply.</p>
+
+<p>I had to see whether this law held true with my own eyes. Fortunately, in my day job, I work with <em>lots</em> of real-life data that <em>is</em> applicable to Benford&rsquo;s law &mdash; trade data from trading desks at a bank.</p>
+
+<p>Yup. It works!</p>
+
+<p>One application of this law is (simplistic) fraud detection. As Phil Galfond once said (I think&hellip; can&rsquo;t find the source to confirm), humans are bad at being random. Ask someone to pick a series of random numbers and you typically end up with a uniform distribution because &ldquo;being random&rdquo; means &ldquo;try not to repeat digits&rdquo;.</p>
 </div>
 
 
@@ -114,7 +125,7 @@
   
 
 
-<time datetime="2014-02-23T22:58:41-05:00" pubdate data-updated="true">Feb 23<span>rd</span>, 2014</time>
+<time datetime="2014-03-20T22:18:12-04:00" pubdate data-updated="true">Mar 20<span>th</span>, 2014</time>
       
 
 
@@ -122,7 +133,7 @@
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://outerloop.github.io/blog/2014/02/23/this-is-not-the-beginning-of-a-blog/" data-via="" data-counturl="http://outerloop.github.io/blog/2014/02/23/this-is-not-the-beginning-of-a-blog/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://outerloop.github.io/blog/2014/03/20/benfords-law-in-the-wild/" data-via="" data-counturl="http://outerloop.github.io/blog/2014/03/20/benfords-law-in-the-wild/" >Tweet</a>
   
   
   
@@ -131,8 +142,10 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2014/02/23/this-is-not-the-beginning-of-a-blog/" title="Previous Post: This is not the beginning of a blog">&laquo; This is not the beginning of a blog</a>
       
-        <a class="basic-alignment right" href="/blog/2014/03/20/benfords-law-in-the-wild/" title="Next Post: Benford's Law in the wild">Benford's Law in the wild &raquo;</a>
+      
+        <a class="basic-alignment right" href="/blog/2014/04/02/startup-weekend-toronto-edu-library-edition-2014/" title="Next Post: Startup Weekend Toronto EDU: Library Edition 2014">Startup Weekend Toronto EDU: Library Edition 2014 &raquo;</a>
       
     </p>
   </footer>

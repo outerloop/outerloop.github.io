@@ -4,7 +4,7 @@
   <title><![CDATA[Ed K]]></title>
   <link href="http://outerloop.github.io/atom.xml" rel="self"/>
   <link href="http://outerloop.github.io/"/>
-  <updated>2014-02-23T23:57:35-05:00</updated>
+  <updated>2014-04-02T21:10:16-04:00</updated>
   <id>http://outerloop.github.io/</id>
   <author>
     <name><![CDATA[outerloop]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Startup Weekend Toronto EDU: Library Edition 2014]]></title>
+    <link href="http://outerloop.github.io/blog/2014/04/02/startup-weekend-toronto-edu-library-edition-2014/"/>
+    <updated>2014-04-02T20:55:00-04:00</updated>
+    <id>http://outerloop.github.io/blog/2014/04/02/startup-weekend-toronto-edu-library-edition-2014</id>
+    <content type="html"><![CDATA[<p>Thanks to everyone who completed the library survey. If you&rsquo;re curious how  your feedback was used, last weekend I participated in Startup Weekend Toronto EDU: Library Edition. Over the weekend, our impromptu team took an elevator pitch (SignWave) through business model development, market validation, prototype design and creation, and a final pitch to a panel of industry judges.</p>
+
+<p>SignWave is an interactive digital sign for libraries. We identified two problems &mdash; students who have difficulty navigating academic libraries and librarians who are constantly answering directional queries. Our solution is to improve the current static signage by allowing library patrons to interact  with large format signs via gestures to get directions and/or information.</p>
+
+<p>It&rsquo;s a crowded market for digital signs so we catered to the limited budgets of libraries by offering a free/low-cost solution using off-the-shelf parts and our open source signage software. Our company would make money by offering &ldquo;Signs-as-a-Service&rdquo; (i.e. hosting and support) and professional services (e.g. consulting, training).</p>
+
+<p>You can play with the demo and flip through our deck here:
+<a href="http://signwave.github.io/">http://signwave.github.io</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Benford's Law in the Wild]]></title>
+    <link href="http://outerloop.github.io/blog/2014/03/20/benfords-law-in-the-wild/"/>
+    <updated>2014-03-20T22:18:12-04:00</updated>
+    <id>http://outerloop.github.io/blog/2014/03/20/benfords-law-in-the-wild</id>
+    <content type="html"><![CDATA[<p>A colleague at work mentioned something that turned out to be really cool &mdash; <a href="http://en.wikipedia.org/wiki/Benford's_law">Benford&rsquo;s Law</a>. Also known as the First-Digit Law, it refers to the frequency distribution of digits in many real-life sources of data.</p>
+
+<p>According to ths law, this is what the distribution of first digits looks like:
+<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Rozklad_benforda.svg/200px-Rozklad_benforda.svg.png" alt="Benford Distribution" /></p>
+
+<p>There are some caveats about the data that this distribution can be applied to. Namely, the data must be distributed across multiple orders of magnitude. That is, if the numbers only fall between 100 and 999, the law will not apply.</p>
+
+<p>I had to see whether this law held true with my own eyes. Fortunately, in my day job, I work with <em>lots</em> of real-life data that <em>is</em> applicable to Benford&rsquo;s law &mdash; trade data from trading desks at a bank.</p>
+
+<p>Yup. It works!</p>
+
+<p>One application of this law is (simplistic) fraud detection. As Phil Galfond once said (I think&hellip; can&rsquo;t find the source to confirm), humans are bad at being random. Ask someone to pick a series of random numbers and you typically end up with a uniform distribution because &ldquo;being random&rdquo; means &ldquo;try not to repeat digits&rdquo;.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[This Is Not the Beginning of a Blog]]></title>
